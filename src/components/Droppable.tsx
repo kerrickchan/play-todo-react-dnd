@@ -7,6 +7,9 @@ export interface DroppableProps {
   onDrop: (item: unknown) => void;
 }
 
+/**
+ * Droppable component
+ */
 export const Droppable: React.FC<PropsWithChildren<DroppableProps>> = ({ onDrop, children }) => {
   const [{ isOver }, drop] = useDrop(() => ({
     accept: 'DRAGGABLE',

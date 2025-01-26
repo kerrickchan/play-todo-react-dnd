@@ -8,6 +8,9 @@ export interface DraggableProps {
   item: unknown;
 }
 
+/**
+ * Draggable component
+ */
 export const Draggable: React.FC<PropsWithChildren<DraggableProps>> = ({ type = 'DRAGGABLE', item = {}, children }) => {
   const [collected, drag] = useDrag(
     () => ({
