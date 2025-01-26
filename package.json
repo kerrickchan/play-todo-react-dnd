@@ -1,7 +1,14 @@
 {
-  "name": "todo",
+  "name": "play-react-dnd",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "react-dnd",
+    "react",
+    "nextjs",
+    "typescript",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
