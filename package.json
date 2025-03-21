@@ -16,7 +16,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.5",
+    "next": "15.2.3",
     "react": "^19.0.0",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
